@@ -1,0 +1,55 @@
+h1,h2,h3,h4{
+    font-family: 'rubik';
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+    margin-bottom: auto;
+}
+
+h3{
+    font-family: 'rubik';
+    font-size: 50px;
+}.container {
+    width:fit-content;
+    text-align: center;
+    margin: auto;
+  }
+  
+  ul {
+    display: inline-block;
+    text-align: left;
+  }
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+li{
+    font-family: 'rubik';
+    font-size: 30px;
+    list-style-type:none;
+    line-height: 50px;
+    text-align: left;
+    font-weight: 500;
+    
+}
+li:hover{
+    color: rgb(63, 0, 235);
+}
+
+
+
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
